@@ -1,0 +1,60 @@
+
+
+/* Login Page and Sign up Page */
+
+.form {
+    display: block;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(216, 216, 216);
+    text-align: center;
+    padding: 30px 20px;
+    display: none;
+}
+
+
+.form input[type='text'],
+.form input[type='password'],
+.form input[type='email']
+{
+    padding: 8px;
+    width: 270px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+#user_type * 
+{
+    padding: 8px;
+    width: 270px;
+    height: 20px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.form input[type='submit'] {
+    padding: 12px 35px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(131, 74, 21);
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.form .sign-btn:hover {
+    background-color: rgb(70, 39, 10);
+}
+
+#message {
+    color: red;
+}
+
+
